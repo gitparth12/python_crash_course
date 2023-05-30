@@ -1,6 +1,4 @@
-# Python Crash Course
-
-<br>
+## Python Crash Course
 
 ### 1. Introduction
 
