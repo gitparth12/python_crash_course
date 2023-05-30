@@ -1,10 +1,12 @@
-# Python Crash Course
-
 ## Plan for the day
+
+<br>
 
 ### 1. Introduction
 
 Hi everyone, my name's Parth and I'm doing a Bachelor of Advanced Computing with a major in Computer Science and Computational Data Science. I'll be in my third year next sem.
+
+<br>
 
 ### 2. Classes and Objects
 
@@ -19,6 +21,8 @@ A class is like a blueprint for an object, which means you can define your own t
 
 __Q. Create a class to represent a restaurant and make a program that simulates dining out in that restaurant.__
 
+<br>
+
 ### 3. File I/O
 
 Interacting with files in python can be done using the open() method. This takes two parameters, the filename and the mode to open the file in.
@@ -27,8 +31,9 @@ Along with these modes, we will also go over how to read and write to a file.
 
 __Q. Read 'data.csv' and print the sum of all numbers in each row one by one, along with the numbers in the row themselves.__
 
-### 4. Short Break + Questions
+<br>
 
+### 4. Short Break + Questions
 <br>
 
 ### 5. Testing
@@ -40,6 +45,8 @@ Also, don't be scared of testing. It's not as foreign as it might seem, you guys
 `assert sum([1, 2, 3]) == 6, "Should be 6"`
 
 We can automate testing in a better way by using something like the __unittest__ library. Actually, let's create a mini testing suite and we'll see how to write some basic tests for the upcoming questions.
+
+<br>
 
 ### 6. Recursion
 
@@ -81,3 +88,7 @@ An object that can be iterated over. We need the `__iter__()` and `__next__()` t
 <br>
 
 ### 9. Questions
+
+
+
+
