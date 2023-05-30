@@ -18,7 +18,7 @@ if __name__ == "__main__":
     # f.readlines()
     for line in f.readlines():
         # improvement: slicing
-        nums = line.split(',') # .strip()
+        nums = line.split(', ') # .strip()
 
         total = 0
         for num in nums:
