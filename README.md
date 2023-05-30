@@ -1,4 +1,4 @@
-## Plan for the day
+# Python Crash Course
 
 <br>
 
@@ -40,7 +40,7 @@ __Q. Read 'data.csv' and print the sum of all numbers in each row one by one, al
 
 Testing is a very important step in the development process. In fact, there's a development practice called test-driven development (TDD) where you write unit tests for your code before writing the actual code. Now I know a lot of you will be thinking, "who cares about testing man just write code". Honestly, I'd agree with you cuz I hate testing. But it's important to be aware of how important it is and there's no way around it, so you might as well try to like it.
 
-Also, don't be scared of testing. It's not as foreign as it might seem, you guys have probably been testing your code one way or another. Even having print statements everywhere and seeing if the output's correct is a form of testing, just not a very good one.
+Also, don't be scared of testing. It's not as foreign as it might seem, you guys have probably been testing your code one way or another. Even having print statements everywhere and seeing if the output's correct is a form of testing, just not a very good one. We can test using assert statements and write functions to test our code.
 
 `assert sum([1, 2, 3]) == 6, "Should be 6"`
 
@@ -50,9 +50,12 @@ We can automate testing in a better way by using something like the __unittest__
 
 ### 6. Recursion
 
-You can't understand recursion without first understanding recursion. It's just another way of solving problems, a bit tricky to understand because it's hard to imagine what's happening under the hood. Important concepts: base case, recursive case.
+_You can't understand recursion without first understanding recursion._ It's just another way of solving problems, where we break a problem down into smaller versions of itself and bring them together at the end. A bit tricky to understand because it's hard to imagine what's happening under the hood. Important concepts: base case, recursive case. 
 
-Recursion isn't necessary, there's always an iterative way of doing a problem. In some cases, makes the code way simpler and easier to implement. However, it's easy to accidentally do infinite recursion, that's why we need to carefully choose a base case. It can also be inefficient due to stack memory.
+- Recursion isn't necessary, there's always an iterative way of doing a problem.
+- In some cases, makes the code way simpler and easier to implement.
+- It's easy to accidentally do infinite recursion, that's why we need to carefully choose a base case.
+- It can also be inefficient due to stack memory.
 
 __Q. Write a recursive algorithm to generate numbers from the fibonacci sequence.__
 
