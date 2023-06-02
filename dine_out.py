@@ -9,16 +9,15 @@ class Resto:
         for item in self.menu:
             print(f"{item:>25} : ${self.menu[item]}")
         print()
-
     
     def add_order(self, item: str, qty: int):
         self.orders[item] += qty
     
     def display_orders(self):
         total = 0
-        for order, qty in self.orders.items():
-            price = self.menu[order]
-            print("{} {} for ${} each -> {}".format(qty, order, price, qty * price))
+        for item, qty in self.orders.items():
+            price = self.menu[item]
+            print("{} {} for ${} each -> {}".format(qty, item, price, qty * price))
             total += qty * price
         print(f"Your total is: ${total}")
 

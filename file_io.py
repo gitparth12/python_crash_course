@@ -2,9 +2,9 @@
 # # Better way
 # for line in open('data.csv'):
 #     nums = line.split(',')[2: -2]
-#     nums = list(map(int, nums))
-#     print(f"{sum(nums)}: ", end='')
-#     print(*nums)
+#     int_nums = [int(num) for num in nums]
+#     print(f"{sum(int_nums)}: ", end='')
+#     print(*int_nums)
 
 # # packing lists
 # def my_sum(*args):

@@ -8,7 +8,7 @@ Hi everyone, my name's Parth and I'm doing a Bachelor of Advanced Computing with
 
 ### 2. Classes and Objects
 
-Python is an object oriented programming language. Almost everything in python is an object, with its own attributes and methods, for eg. `str.split()`.
+Python is an object oriented language. Almost everything in python is an object, with its own attributes and methods, for eg. `str.split()`.
 
 A class is like a blueprint for an object, which means you can define your own type of object, with custom attributes and methods as you see fit.
 
@@ -17,7 +17,7 @@ A class is like a blueprint for an object, which means you can define your own t
 
 `__init__()` constructor, is a dunder method. They are a level of abstraction below a general user's interaction with the language. They allow instances of a class to interact with the built-in functions and operators of the language. All operators like `+` and `-` rely on dunder methods under the hood, such as `__add__`.
 
-__Q. Create a class to represent a restaurant and make a program that simulates dining out in that restaurant.__
+__Q. Create a class to represent a restaurant and make a program that simulates dining out in that restaurant. Every restaurant object should store its menu and orders in dictionaries, and have functions to display menu, add an order, and display orders.__
 
 <br>
 
@@ -85,6 +85,8 @@ __Q. Write a function that takes two 2-dimensional arrays and outputs the sum.__
 ### 8. Iterators
 
 An object that can be iterated over. We need the `__iter__()` and `__next__()` to implement an iterator. The `__iter__()` method returns an iterator instance of the object, can be used in a for loop. The `__next__()` method returns the value for every iteration. Other than for loops, can also manually use `iter()` and `next()` to interact with iterators. To stop the iteration, we need to `raise` a `StopIteration()` exception.
+
+__Q. Make an iterator that mimics `range()` in python, but make the start and end values inclusive. Optional extension: try to use default values so that you can only provide end value and not start value.__
 
 <br>
 
